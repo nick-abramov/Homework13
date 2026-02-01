@@ -24,6 +24,7 @@ public class Order {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
+
         Product product = (Product) o;
         return this.customer == ((Order) o).customer && Arrays.equals(Product_Basket, this.Product_Basket);
     }

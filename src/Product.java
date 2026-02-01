@@ -20,6 +20,7 @@ public class Product {
     public String toString() {
         return "артикул = " + this.id + " название = " + this.name + " цена =" + this.price + " категория =" + this.category;
     }
+
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) {
